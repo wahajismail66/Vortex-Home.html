@@ -1,0 +1,41 @@
+body {
+    overflow-x: hidden;
+}
+.navbar {
+    font-weight: bold;
+}
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+.web-logo {
+    height: 46px;
+    width: 46px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+.carousel {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.6);
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.introduction {
+    color: white;
+}
+.introduction h1 {
+    font-weight: bold;
+}
+.introduction p {
+    font-weight: 200;
+}
+.productsSection {
+    position: relative;
+    top: 230px;
+}
+.productHeading {
+    text-align: center;
+}
